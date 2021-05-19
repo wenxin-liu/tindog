@@ -1,10 +1,13 @@
-#title {
-  background-color: #ff4c68;
-  color: #FFFFFF;
+body {
+  font-family: 'Montserrat', sans-serif;
 }
 
-#features {
-  background-color: white;
+
+/* title section */
+
+#title {
+  background-color: #ef8172;
+  color: #FFFFFF;
 }
 
 .download-button {
@@ -42,15 +45,39 @@
   left: 15.5%;
 }
 
-body {
-  font-family: 'Montserrat', sans-serif;
-  /* font-weight: 400; */
-}
-
 h1 {
   /* padding: 0 0 10% 0; */
   /* font-family: 'Montserrat', sans-serif; */
   font-size: 3.5rem;
   line-height: 1.5;
+  font-weight: 900;
+}
+
+
+/* features section */
+
+#features {
+  margin: 5% 10%;
+}
+
+#features>div>div>p {
+  color: #8f8f8f;
+}
+
+.fa-check-circle, .fa-bullseye, .fa-heart {
+  margin-bottom: 20px;
+  color: #ef8172;
+}
+
+.fa-check-circle:hover, .fa-bullseye:hover, .fa-heart:hover {
+  color: #ff4c68;
+}
+
+.feature-item {
+  padding: 50px;
+}
+
+h3 {
+  font-size: 1.5rem;
   font-weight: 900;
 }
