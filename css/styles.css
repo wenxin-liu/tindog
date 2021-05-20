@@ -2,9 +2,7 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
-
 /* title section */
-
 #title {
   background-color: #ef8172;
   color: #FFFFFF;
@@ -53,9 +51,7 @@ h1 {
   font-weight: 900;
 }
 
-
 /* features section */
-
 #features {
   margin: 5% 10%;
 }
@@ -82,7 +78,6 @@ h3 {
   font-weight: 900;
 }
 
-
 /* testimonals section */
 #testimonials {
   background-color: #ef8172;
@@ -96,7 +91,7 @@ h3 {
 }
 
 .carousel-item {
-    padding: 7% 15%;
+  padding: 7% 15%;
 }
 
 h2 {
@@ -105,15 +100,23 @@ h2 {
   font-weight: 900;
 }
 
-
 /* press section */
-
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
 }
 
-#press > img {
+#press>img {
   width: 15%;
   margin: 20px 20px 50px;
+}
+
+/* pricing section */
+#pricing {
+  padding: 7% 15%;
+}
+
+.pricing-card {
+  padding-bottom: 15px;
+  padding-top: 15px;
 }
