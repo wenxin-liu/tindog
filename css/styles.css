@@ -86,25 +86,28 @@ h3 {
 /* testimonals section */
 #testimonials {
   background-color: #ef8172;
-  /* font-weight: 900; */
-  padding: 7% 15%;
   color: #FFFFFF;
 }
 
-#testimonials > img {
+.testimonial-image {
   border-radius: 100%;
   width: 10%;
   margin: 20px;
 }
 
+.carousel-item {
+    padding: 7% 15%;
+}
+
 h2 {
-  font-size: 2.5rem;
+  font-size: 3rem;
   line-height: 1.5;
   font-weight: 900;
 }
 
 
 /* press section */
+
 #press {
   background-color: #ef8172;
   padding-bottom: 3%;
