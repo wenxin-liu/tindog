@@ -2,15 +2,15 @@ body {
   font-family: 'Montserrat', sans-serif;
 }
 
+
 /* title section */
 #title {
-  background-color: #ef8172;
+  background-color: #ff4c68;
   color: #FFFFFF;
-  /* position: absolute; */
 }
 
 .download-button {
-  margin: 5% 3% 20% 0;
+  margin: 5% 3% 0 0;
 }
 
 .navbar {
@@ -24,8 +24,6 @@ body {
 }
 
 .nav-link {
-  /* font-family: 'Montserrat', sans-serif; */
-  /* font-weight: 100; */
   font-size: 1.2rem;
 }
 
@@ -34,7 +32,7 @@ body {
 }
 
 .container-fluid {
-  padding: 3% 15% 7%;
+  padding: 3% 15% 9%;
 }
 
 .phone {
@@ -45,12 +43,27 @@ body {
 }
 
 h1 {
-  /* padding: 0 0 10% 0; */
-  /* font-family: 'Montserrat', sans-serif; */
   font-size: 3.5rem;
   line-height: 1.5;
   font-weight: 900;
 }
+
+/* center align and straighten title image on tablet and mobile */
+@media only screen and (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .download-button {
+    margin: 5% 3% 15% 0;
+  }
+
+  .phone {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
 
 /* features section */
 #features {
@@ -86,8 +99,6 @@ h3 {
 #testimonials {
   background-color: #ef8172;
   color: #FFFFFF;
-  /* position: absolute; */
-  /* top: 1200px; */
 }
 
 .testimonial-image {
@@ -111,8 +122,6 @@ h2 {
   background-color: #ef8172;
   padding-bottom: 3%;
   width: 100%;
-  /* position: absolute; */
-  /* top: 1800px; */
 }
 
 #press>img {
@@ -120,12 +129,11 @@ h2 {
   margin: 20px 20px 50px;
 }
 
+
 /* pricing section */
 #pricing {
   padding: 7% 15%;
   width: 100%;
-  /* position: absolute; */
-  /* top: 2000px; */
 }
 
 .pricing-card {
@@ -133,12 +141,28 @@ h2 {
   padding-top: 15px;
 }
 
-/* #cta {
-  position: absolute;
-  top: 2700px;
+
+/* call to action section */
+#cta {
+  background-color: #ff4c68;
+  padding: 7% 15%;
 }
 
+#cta > h3 {
+  color: #FFFFFF;
+  font-size: 3rem;
+}
+
+
+/* footer section */
 #footer {
-  position: absolute;
-  top: 3000px;
-} */
+  padding: 7% 15%;
+}
+
+.fa-twitter, .fa-facebook-f, .fa-instagram, .fa-envelope {
+  margin: 0 1% 2% 1%;
+}
+
+#footer>p {
+  color: #8f8f8f;
+}
